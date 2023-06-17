@@ -22,4 +22,9 @@ marsDays = marsHours / 24;
 // Exercise D
 console.log(spaceShuttle + " " + "will take " + marsDays + " days to reach Mars.");
 
+// Exercise E
+let moonMiles = moonDistance * milesPerKm,
+moonHours = moonMiles / shuttleSpeed,
+moonDays = moonHours / 24;
 
+console.log(spaceShuttle + " " + "will take " + moonDays + " days to reach Mars.");
